@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Belleza', sans-serif;
+    /* background-color: rgb(241, 241, 247); */
+   
+    
+
+}
+
+
+#logo {
+    width: 12%;
+    height: 12%;
+    margin-top: 1%;
+}
+
+nav {
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.links {
+    margin-right: 0%;
+    justify-content: space-evenly;
+
+    width: 20%;
+    margin-top: 1%;
+    margin-left: 20%;
+
+}
+
+a {
+    margin-left: 3%;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 130%;
+    font-weight: 500;
+    color: black;
+
+}
+a:hover{
+    color: rgb(228, 13, 13);
+}
+
+
+#nome-salao {
+    font-size:500%;
+    text-shadow: 5px 1px 4px #7f7f7f;
+    margin-left: 0%;
+
+    margin-top: 1%;
+  
+}
+
+
+
+.image-main {
+    width: 15%;
+    height: 10%;
+    margin-left: 5%;
+
+}
+
+#image-main1 {
+    width: 10%;
+    height: 8%;
+    margin-left: 5%;
+
+}
+
+#image-main2 {
+    width: 15%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top: -2.5%;
+
+}
+
+.unhas {
+    margin-top: 5%;
+    align-items: center;
+
+
+}
+
+.texto {
+    width: 50%;
+    text-align: center;
+    margin-left: 2%;
+    margin-top: 5%;
+
+
+}
+
+.texto2 {
+    width: 50%;
+    text-align: center;
+
+
+    margin-left: 2%;
+   
+    margin-top: 5%;
+
+
+}
+
+.imagem-unhas {
+    justify-content: right;
+    display: inline-flex;
+
+    width: 100%;
+    margin-top: 1%;
+
+}
+
+#main-title {
+    text-align: center;
+    font-size: 40px; /*cada 1 px sao 6.25%*/
+    text-shadow: 5px 8px 4px #c0bfbf;
+}
+
+#main-title1 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 8px 4px #c0bfbf;
+}
+
+.pele {
+    display: inline-flex;
+    justify-content: right;
+}
+
+#main-title3 {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 5px 8px 4px #c0bfbf;
+}
+
+.cabelos {
+    display: inline-flex;
+    justify-content: left;
+}
+
+.texto3 {
+    width: 50%;
+    text-align: center;
+
+
+
+
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 5%;
+
+
+}
+body{
+    background-image: url(./assets/background.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  
+   
+   
+}
